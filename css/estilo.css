@@ -1,0 +1,73 @@
+body{
+    background-color: #fff;
+    }
+    
+    .caixa{
+    background:linear-gradient(.25turn, #999999, 10%, #bcbcbc);
+    
+    border: 1px solid #DCDCDC;
+    width: 300px;
+    height: 450px;
+    margin: 80px auto;
+    border-radius: 8px;
+    box-shadow: 20px 20px 8px 0 #808080;
+    
+    }
+    
+    .principal{
+    border: 1px solid #DCDCDC;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: #fff -4px 4px 8px 0 inset;
+    background-color: #C0C0C0;
+    }
+    
+    .principal input{
+        width: calc(100% - 40px);
+        margin: 8px 15px;
+        height: 100px;
+        border-bottom: 1px solid #5b5b5b;
+        font-size: 48px;
+        text-align: right;
+    }
+    
+    .principal .area-entrada{
+        border: none;
+    }
+    
+    
+    .botoes{
+        width: 90%;
+        height: 280px;
+        margin: 2px 10px;
+        border: 1px solid #DCDCDC;
+        text-align: center;
+        display: flex;
+        flex-wrap:  wrap;
+        justify-content:center;
+        border-radius: 8px;
+        box-shadow: -5px -5px 4px 0 #eeeeee;
+    }
+    
+    
+    .botoes button{
+        width: calc((100%/3)-4px);
+        height: 50px;
+        margin: 4px;
+        box-shadow: 5px 5px 4px 0 #fff;
+        border-radius: 8px;
+        box-sizing: border-box;
+        padding: 16px;
+        border: 1px solid #DCDCDC;
+        font-size: 18px;
+        background-color: #A9A9A9;
+        color: #fff;
+    }
+    
+    .branco{
+        background-color: #fff;
+    }
+    
+    
